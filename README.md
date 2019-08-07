@@ -44,3 +44,6 @@
 #### Demostración:
 ##### factorial(4)
 #### R: Se pueden formar 256 permutaciones con repetición y 24 sin repetición.
+### 6. ¿Cuál es el número de palabras que podemos escribir con las letras de PARALELEPIPEDO? Son 14 letras, de las cuales la A y la L se repiten dos veces y la P y la E tres veces.
+##### factorial(14)/(factorial(2)*factorial(2)*factorial(3)*factorial(3)*factorial(1)*factorial(1)*factorial(1)*factorial(1))
+#### R: Se pueden formar 605404800 palabras con las letras de "PARALELEPIPEDO".
