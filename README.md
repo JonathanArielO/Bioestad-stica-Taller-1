@@ -29,3 +29,8 @@
 ##### replicate(150,sample(Hs,size=4,replace=F))
 ##### 19/150
 #### R: La probabilidad de obtener la palabra CASA dentro de las 150 muestras fue de 0.1266667 (aprox. 0.1), por lo tanto, se cumple la predicción.
+### 4. Tire una moneda virtual 40 veces con el comando sample() y determine si le salen 20 caras y 20 sellos (para eso, incluya replace = TRUE en la función para obtener un muestreo con remplazo). Al comparar los resultados de los intentos ¿cuántas caras y sellos se obtienen? ¿El resultado corresponde al esperado (20 caras y 20 sellos)?
+##### MV<-c("Cara","Sello")
+##### MV
+##### replicate(40,sample(MV,size=1,replace=T))
+#### R: se obtuvo 23 caras y 17 sellos, lo que se traduce en cercano, pero no exacto a lo postulado en el encabezado.
