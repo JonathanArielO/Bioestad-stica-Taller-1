@@ -34,3 +34,13 @@
 ##### MV
 ##### replicate(40,sample(MV,size=1,replace=T))
 #### R: se obtuvo 23 caras y 17 sellos, lo que se traduce en cercano, pero no exacto a lo postulado en el encabezado.
+### 5. Determine cuántas permutaciones de 4 elementos con y sin repetición se pueden formar con las letras “P”, “E”, “R” y “O”. Use el comando permutations() con los argumentos repeats.allowed = TRUE (con repetición) ó repeats.allowed = FALSE (sin repetición). Además, demuestre este resultado matemáticamente.
+##### E<-c("P","E","R","O")
+##### E
+##### permutations(4,4,E,repeats.allowed=T)
+#### Demostración:
+##### 4^4
+##### permutations(4,4,E,repeats.allowed=F)
+#### Demostración:
+##### factorial(4)
+#### R: Se pueden formar 256 permutaciones con repetición y 24 sin repetición.
